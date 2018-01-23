@@ -55,6 +55,12 @@ The result:
 
 ![alt text](./lanelines.png "Lane Lines Identified")
 
+### Video
+
+For a video demonstration, click below!
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/-fUdbVX3HPA/0.jpg)](https://www.youtube.com/watch?v=-fUdbVX3HPA "Lane Line Analysis Demo")
+
 ### Shortcomings
 
 Besides sample images, sample videos were also provided to test on. This was
@@ -76,7 +82,7 @@ instead of leaning so heavily on RGB might improve results.
 
 Converting the image into HSV or HSL color space instead of RGB might be an
 effective way to more accurately detect lane lines when there is harsh sunlight.
-I had good results using HSV color space in my traffic light classifier,
+I had good results using HSV color space in my traffic light classifier.
 
 Of course, another improvement would be using a CNN, which might provide excellent
 results (but that introduced other drawbacks -- need for data and computation
